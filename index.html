@@ -3,12 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Judeo Spanish</title>
 
+    <style>
+      blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+      }
+      blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+      blockquote p {
+        display: inline;
+      }
+    </style>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -37,13 +57,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" style="margin-top:-8px;" href="index.html"><img src="img/logo.gif" alt="logo"></a>
+          <a class="navbar-brand" href="index.html">Judeo-Spanish</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
             <li><a href="#music" data-toggle="tab">Music</a></li>
-            <li><a href="#about" data-toggle="tab">About</a></li>
+            <li><a href="http://cryptojews.com/form-and-meaning-in-the-sephardic-poetry-of-new-spain/">Poetry</a></li>
+            <li><a href="http://www.bigbridge.org/BB14/MCASTRO.HTM">Proverbs</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -53,47 +74,53 @@
       <div class="tab-pane fade in active" id="home">
         <div class="jumbotron">
           <div class="container">
-            <h1>Ladino!</h1>
-            <p>Ladino, also known by Judeo-Spanish and a myriad of other names, is the language originally spoken by the Jews that were expelled from Spain in 1492
-			by the Spanish Inquisition.  Ladino is heavily based on Spanish, but also draws from many other languages as well, most notably Turkish, Greek, Slavic, Arabic,
-			French, and Italian.  It is clear that the written language existed prior to the Inquisition, but it is more controversial as to whether the spoken language existed
-			prior to then.  Scholars are split on the issue, but there seems to be evidence that it indeed existed before the Jew's exodus.  Unfortunately, the language has greatly
-			decreased in popularity and is in danger of dying out.  Most people who speak are older and the language isn't being passed on to the younger generations.  
-			Fortunately, as of about 20 years ago, Ladino seems to have entered a period of revival, particularly in the realm of music.  Ladino songs and literature
-			are particularly beautiful and insightful so it is no surprise that people seem to enjoy them so much.  
-			
-			</p>
-            <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+            <h1>The Ladino Language</h1>
+            <p>Ladino, also known by Judeo-Spanish and a myriad of other names, is the language originally spoken by the Jews that were expelled from Spain in 1492 by the Spanish Inquisition.  It is clear that the written language existed prior to the Inquisition, but it is more controversial as to whether the spoken language existed prior to then.  Scholars are split on the issue, but there seems to be evidence that it indeed existed before the Jew's exodus.  Unfortunately, the language has greatly decreased in popularity and is in danger of dying out.  Most people who speak are older and the language isn't being passed on to the younger generations.  Fortunately, as of about 20 years ago, Ladino seems to have entered a period of revival, particularly in the realm of music.  Ladino songs and literature are particularly beautiful and insightful so it is no surprise that people seem to enjoy them so much. Ladino is heavily based on Spanish, but also draws from many other languages as well, most notably Turkish, Greek, Slavic, Arabic, French, and Italian.</p>
+            <p><a class="btn btn-primary btn-lg" role="button">Convert Passage to Ladino &raquo;</a></p>
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="music">
+      <div class="tab-pane fade" id="music" style="margin-top:26px;">
         <div class="container">
-          <div class="col-md-6">
-            <img src="img/flory.jpg" alt="flory" class="img-responsive img-rounded" style="margin-top:26px"></div>
-          <div class="col-md-6">
-            <h3>Flory Jagoda <small>Guitarist, Composer, and Singer</h3></div>
-            <p>Flory Jagoda was born in Sarajevo, Bosnia, a member of the Sephardic Jewish community. When the Sephardic Jews were forced into exile from Spain and Portugal in the 15th century, many settled in other Mediterranean countries but preserved their native language, called Ladino. Through her grandmother, Jagoda learned songs that had been passed down in her family for generations. She also became familiar with the region's Balkan cultural traditions. Jagoda escaped the destruction of Sarajevo's Jewish community and came to the United States after World War II. She has been recognized as an important carrier of a unique musical heritage and also as a composer and arranger of new Sephardic songs. In addition to passing that tradition on to her children, she has taught many students who now perform Ladino music. Today, she tours widely and her music is circulated through recordings and in The Flory Jagoda Songbook. She is well known in the Washington, D.C. area for her willingness to perform at religious ceremonies, family celebrations and cultural events.</p>
-          <iframe width="100%" height="480"
-            src="http://www.youtube.com/embed/IBJbAAKUFOY?wmode=transparent" frameborder="0" style="margin-top:10px" allowfullscreen></iframe>
-						<div class="col-md-6">
-			<h4> Ramon Tasat <small>Musician</h4></div>
-			<p>  Ramon Tasat was born in Bueno Aires and was taught Ladino by his grandmother at a young age.  
-			It is said the "his style reflects the rich history and drama of this extraordinary culture. "  Tasat has a PhD in voice performance from the University of Texas
-			at Austin and has played throughout Europe with Dr. Robert Shaw, one of the United States' most renowned musicians.  Tasat has recorded a multitude of albums, including
-				a series of duets with Flory Yagoda.  Here is a video of Tasat performing "Adío Kerida", a famous Ladino song which I have had the pleasure of singing
-				in my ladino class at Tufts University.
-			<p>
-			<iframe width="640" height="360" src="//www.youtube.com/embed/xScFONF6q0M?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 
-        </div>
-      </div>
-    </div>
+          <!-- Flory -->
+          <div class="col-md-12 row text-center">
+            <img src="img/flory.jpg" alt="flory" class="img-responsive img-rounded" style="margin:0 auto;">
+          </div>
+          <div class="col-md-12">
+            <h3>Flory Jagoda <small><i>Guitarist, Composer, and Singer</i></small></h3>
+            <blockquote>
+              <p>Flory Jagoda was born in Sarajevo, Bosnia, a member of the Sephardic Jewish community. When the Sephardic Jews were forced into exile from Spain and Portugal in the 15th century, many settled in other Mediterranean countries but preserved their native language, called Ladino. Through her grandmother, Jagoda learned songs that had been passed down in her family for generations. She also became familiar with the region's Balkan cultural traditions. Jagoda escaped the destruction of Sarajevo's Jewish community and came to the United States after World War II. She has been recognized as an important carrier of a unique musical heritage and also as a composer and arranger of new Sephardic songs. In addition to passing that tradition on to her children, she has taught many students who now perform Ladino music. Today, she tours widely and her music is circulated through recordings and in The Flory Jagoda Songbook. She is well known in the Washington, D.C. area for her willingness to perform at religious ceremonies, family celebrations and cultural events.</p>
+             <footer><a href="http://arts.gov/honors/heritage/fellows/flory-jagoda">arts.gov</a></footer>
+            </blockquote>
+            <iframe width="100%" height="480" src="http://www.youtube.com/embed/IBJbAAKUFOY?wmode=transparent" frameborder="0" style="margin-top:10px" allowfullscreen></iframe>
+          </div>
+
+
+          <!-- Ramon -->
+          <div class="col-md-12 row text-center" style="margin-top:24px">
+            <img src="img/ramon.jpg" alt="ramon" class="img-responsive img-rounded" style="margin:0 auto;">
+          </div>
+          <div class="col-md-12">
+            <h3>Ramón Tasat <small><i>Vocalist, composer, and choral conductor</i></small></h3>
+            <blockquote>
+              <p> Ramón Tasat was born in Bueno Aires and was taught Ladino by his grandmother at a young age.  It is said the "his style reflects the rich history and drama of this extraordinary culture. "  Tasat has a PhD in voice performance from the University of Texas at Austin and has played throughout Europe with Dr. Robert Shaw, one of the United States' most renowned musicians.  Tasat has recorded a multitude of albums, including a series of duets with Flory Yagoda.  Here is a video of Tasat performing "Adío Kerida", a famous Ladino song which I have had the pleasure of singing in my ladino class at Tufts University.</p>
+             <footer>Adam Zakaria</footer>
+            </blockquote>
+            <iframe width="100%" height="480" src="http://www.youtube.com/embed/xScFONF6q0M?wmode=transparent" frameborder="0" style="margin-top:10px" allowfullscreen></iframe>
+          </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).on('click','.navbar-collapse.in',function(e) {
+          if( $(e.target).is('a') ) {
+              $(this).collapse('hide');
+          }
+      });
+    </script>
   </body>
 </html>
